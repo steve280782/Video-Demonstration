@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<title>Video Encoding</title>
+<link href="video-js/video.js-4.1.2/src/css/video-js.css" rel="stylesheet">
+        <script src="video-js/video.js-4.1.2/src/js/dist/video.js"></script>
+        <script>
+        videojs.options.flash.swf = "video-js/video.js-4.2.1/swf/video-js.swf"
+        </script>
+</head>
+<body>
+<h1>Examples of video encoding formats</h1>
+<div id="main">
+<h2>Base MP4 Video (54MB)</h2>
+<video id="Madison Drinking" class="video-js vjs-default-skin"
+  controls preload="auto" width="640" height="480"
+  poster="madisondrink.png"
+  data-setup='{}'>
+<source src="videos/madisondrink.mp4" type='video/mp4' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+</div>
+<br>
+
+<p>
+<a href="http://madisonvideo.cloudapp.net/h264examples.html" target="_blank">H264 Examples</a>
+<a href="http://madisonvideo.cloudapp.net/vp8examples.html" target="_blank">VP8 Examples</a>
+</p>
+
+</body>
+</html>
