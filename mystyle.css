@@ -1,0 +1,23 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial
+}
+
+h1 {
+    color: black;
+    text-align: center
+}
+
+h2 {
+    color: black;
+    text-align: center
+}
+video {
+display: block;
+margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-size:large;
+}
